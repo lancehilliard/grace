@@ -1,3 +1,4 @@
+start /wait cinst GoogleChrome
 start /wait cinst 7zip
 start /wait cinst fiddler
 start /wait cinst filezilla
