@@ -1,5 +1,9 @@
 @echo off
 
+ping -n 2 %AUTOVPN_REMOTE_LAN_IP% | find "TTL"
+if %errorlevel%==0 goto end
+
+
 title Terminating Lync...
 :terminateLync
 timeout 1 >nul 2>&1
@@ -16,3 +20,4 @@ if %errorlevel%==1 goto detectVpnConnection
 
 start "" "C:\Program Files (x86)\Microsoft Lync\communicator.exe"
 
+:end
