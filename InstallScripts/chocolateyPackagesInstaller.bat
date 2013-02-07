@@ -1,3 +1,4 @@
+start /wait cinst sublimetext2
 start /wait cinst GoogleChrome
 start /wait cinst 7zip
 start /wait cinst fiddler
