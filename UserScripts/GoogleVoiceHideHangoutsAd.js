@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         GV: Hide Hangouts Ad
 // @namespace    http://digitalcreations.cc
-// @version      0.1
 // @description  Hide the Hangouts ad which appears on the Voice webpage
-// @author       You
+// @author       @lancehilliard
+// @downloadUrl  https://raw.githubusercontent.com/lancehilliard/grace/master/UserScripts/GoogleVoiceHideHangoutsAd.js
+// @version      1.1
 // @match        https://www.google.com/voice
 // @grant        none
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
