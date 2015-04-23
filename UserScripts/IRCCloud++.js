@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name         IRCCloud++
-// @version      0.201504231601
-// @match		 *.irccloud.com/*
+// @namespace    http://digitalcreations.cc
+// @version      0.201504231605
+// @author       @lancehilliard
+// @downloadUrl  https://raw.githubusercontent.com/lancehilliard/grace/master/UserScripts/IRCCloud%2B%2B.js
+// @match        *.irccloud.com/*
 // @grant        none 
 // ==/UserScript==
 
