@@ -64,8 +64,8 @@ if (jQuery) {
             names['freebsg'] = 'Sbeerfg Jvyyvnzf';
             names['ercvi'] = 'Wbfu Gnlybe';
             
-            nameplateDiv = $('<div style="padding: 5px; background-color: #1E72FF; position: absolute; right: 0; bottom: 0; font-size: small; color: white;">IRCCloud++</div>')
-            nameplateDiv.appendTo('body');
+            nameplateDiv = $('<div style="padding: 5px; background-color: #1E72FF; position: absolute; margin-bottom: 20px; margin-left: 60px; bottom: 0; font-size: small; color: white;">IRCCloud++</div>')
+            nameplateDiv.appendTo('#sidebar');
             
             function rot13(s) { // http://stackoverflow.com/a/617685/116895
                 return s.replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
